@@ -7,8 +7,6 @@ public class ZombieWalk : MonoBehaviour {
 	public AudioClip zombieCry;
 	public int health = 100;
 	private bool checkAudio = true;
-	private GameObject obj;
-	public GameObject blood;
 	
 	// Use this for initialization
 	void Start () {
@@ -42,20 +40,7 @@ public class ZombieWalk : MonoBehaviour {
 	void takeHealth(int points){
 		health -= points;
 		if (health <= 0){
-			killObject(obj);
+			Destroy(gameObject);
 		}
-	}
-	
-	void getObject(GameObject theObject){
-		obj = theObject;
-	}
-	
-	void killObject(GameObject theObject){
-		Instantiate(blood,theObject.transform.position,Quaternion.identity);
-		Destroy(theObject);
-	}
-	
-	void playBlood(GameObject theObject){
-		Instantiate(blood,theObject.transform.position,Quaternion.identity);	
 	}
 }
