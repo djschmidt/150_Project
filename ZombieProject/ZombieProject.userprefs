@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js">
-    <Files>
-      <File FileName="Assets\Scripts\ZombieWalk.cs" Line="43" Column="24" />
-      <File FileName="Assets\Scripts\zombieTest.cs" Line="14" Column="28" />
-      <File FileName="Assets\Scripts\PlayerCollision.cs" Line="21" Column="85" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="11" Column="48" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
