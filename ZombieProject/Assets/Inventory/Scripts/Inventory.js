@@ -1,7 +1,7 @@
 //This is the central piece of the Inventory System.
 
 var Contents : Transform[]; //The content of the Inventory
-var MaxContent : int = 20; //The maximum number of items the Player can carry.
+var MaxContent : int = 12; //The maximum number of items the Player can carry.
 
 var DebugMode = false; //If this is turned on the Inventory script will output the base of what it's doing to the Console window.
 

@@ -117,7 +117,7 @@ function EquipItem(i:Item,slot:int)
 		gameObject.SendMessage ("PlayEquipSound", SendMessageOptions.DontRequireReceiver); //Play sound
 		
 		//We tell the Item to handle EquipmentEffects (if any).
-		if (i.equipmentEffect != null)
+		if (i.GetComponent(EquipmentEffect) != null)
 		{
 			equipmentEffectIs = true;
 			i.GetComponent(EquipmentEffect).EquipmentEffectToggle(equipmentEffectIs);

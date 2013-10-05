@@ -68,16 +68,11 @@ class InventoryEditor extends EditorWindow {
 					this.Close();
 				}
 				
-				GUILayout.Label ("Current version:  1.1.2", EditorStyles.wordWrappedLabel);
+				GUILayout.Label ("Current version:  1.2.2", EditorStyles.wordWrappedLabel);
 				
 				EditorGUILayout.EndScrollView();
 				EditorGUILayout.EndVertical();
 				return;
-			}
-		
-			if (invGUI == null)
-			{
-				//"Assets/Inventory/GUI/InventorySkin"
 			}
 			
 			EditorGUILayout.Space();
@@ -173,7 +168,7 @@ class InventoryEditor extends EditorWindow {
 			this.Close();
 		}
 		
-		GUILayout.Label ("Current version:  1.1.2", EditorStyles.wordWrappedLabel);
+		GUILayout.Label ("Current version:  1.2.2", EditorStyles.wordWrappedLabel);
 		
 		EditorGUILayout.EndScrollView();
 		EditorGUILayout.EndVertical();
