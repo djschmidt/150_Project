@@ -70,6 +70,8 @@ public class ZombieWalk : MonoBehaviour {
 		Instantiate(blood,GameObject.Find("Chest").transform.position,transform.rotation);
 		if (health <= 0){
 			Destroy(gameObject);
+			//GameObject.Find("walk2").SetActive(false);
+			//GameObject.Find("walk2").SetActive(true);
 		}
 	}
 	
