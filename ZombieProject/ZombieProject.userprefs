@@ -1,11 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ZombieWalk.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Scripts\PlayerCollision.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\crossHair.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\enemyAI.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ZombieWalk.cs" Line="72" Column="4" />
+=======
+      <File FileName="Assets\Scripts\ZombieWalk.cs" Line="43" Column="24" />
+      <File FileName="Assets\Scripts\zombieTest.cs" Line="14" Column="28" />
+      <File FileName="Assets\Scripts\PlayerCollision.cs" Line="21" Column="85" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="11" Column="48" />
+>>>>>>> parent of 3d86c8a... Update Project
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
