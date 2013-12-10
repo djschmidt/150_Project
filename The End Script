@@ -1,0 +1,19 @@
+
+
+
+var TheEnd: GUISkin;
+var areaWidth: float;
+var areaHeight: float;
+var hSliderValue: float=0;
+var title : GUIStyle;
+
+
+function OnGUI () 
+
+{	GUI.skin=TheEnd;
+		
+		GUI.Label(Rect(600,200,500,100),"GAME OVER",title);
+		var ScreenX=((Screen.width*0.5)-(areaWidth*0.5));
+		var ScreenY=((Screen.height)-(areaHeight*0.5));
+		GUILayout.BeginArea(Rect(ScreenX,ScreenY,areaWidth,areaHeight));
+		
