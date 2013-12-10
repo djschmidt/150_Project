@@ -1,0 +1,5 @@
+var TheEnd: GUISkin;
+var areaWidth: float;
+var areaHeight: float;
+var hSliderValue: float=0;
+var title : GUIStyle;
